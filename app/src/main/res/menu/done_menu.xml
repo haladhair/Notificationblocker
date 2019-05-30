@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+
+        android:checkableBehavior="single"
+        android:enabled="true"
+        android:icon="@drawable/kaitoked"
+        android:visible="true"
+        app:showAsAction="always">
+        <item
+            android:id="@+id/rename"
+            android:icon="@drawable/editpro"
+            android:title="Edit name"
+            app:showAsAction="always"></item>
+
+        <item
+            android:id="@+id/delete"
+            android:icon="@drawable/deletepro"
+            android:title="Delete profile"
+            app:showAsAction="always"></item>
+
+        <item
+            android:id="@+id/done"
+            android:title="Save"
+            android:icon="@drawable/save"
+            app:showAsAction="always"></item>
+
+
+    </group>
+
+
+</menu>
